@@ -171,4 +171,3 @@ A letter grade for **sourcing-spread health** that compares this month's `SSB %`
 - **The KPI measures pricing behaviour, not profit.** A Strategic Volume month scores +1 whether or not the extra volume was profitable. Read it next to `Sourcing Spread Base %` and the Lane Score.
 - The **0.2% dead-band** is applied to classification only. `MoM`, `DPr` and `DVr` stay exact.
 - **"At 100%"** and **"at max."** test equality and "above" respectively. A shipper whose loads all sit on Strategic Price or Strategic Volume lanes scores exactly 100%, which is why that bucket exists. `Threshold .3` (5/3) sits below the theoretical maximum of 2, so "at max." really means "above 167%".
-- **Label history:** the *Instructions* page still uses the quadrants' earlier names: *Growth* = Upgrade, *Profitable* = Strategic Price, *Loss Leader* = Downgrade, *Strategic* = Strategic Volume.

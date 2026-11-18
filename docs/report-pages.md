@@ -6,7 +6,7 @@ The report has 15 pages. Most share a standard slicer bar (**month, equipment, s
 
 | Page | What it shows |
 |---|---|
-| **Instructions** | How MoM growth splits into ΔPrice and ΔVolume, the four quadrants and their KPI weights, with a worked example: an animated scatter you can *Play* month by month. It uses the quadrants' earlier names (Growth, Profitable, Loss Leader, Strategic); see [methodology](methodology.md#10-notes--caveats). |
+| **Instructions** | How MoM growth splits into ΔPrice and ΔVolume, the four quadrants and their KPI weights, with a worked example: an animated scatter you can *Play* month by month. |
 | **Executive Summary** | One-page view for leadership: Pricing Power, sourcing spread, RPM this vs. last month, bookings, ΔPrice and ΔVolume, plus the share of lanes and loads per quadrant over time. |
 
 ## 2. KPI
