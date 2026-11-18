@@ -1,8 +1,8 @@
-# Pricing Power: a Pricing KPI for Freight Brokerage in Power BI
+# Pricing Power: Price vs. Volume Analytics for Freight Brokerage in Power BI
 
 A Power BI model that answers a question every brokerage pricing team gets asked: ***was this month's growth bought with discounts, or earned with pricing power?***
 
-Each month's bookings growth is split into a **price effect** (rate per mile) and a **volume effect** (miles served). Every lane is then placed in one of four quadrants, and the result is rolled up into a single, weighted **Pricing KPI** that can be tracked company-wide, by sales team, equipment, quoting channel, shipper or lane.
+Each month's bookings growth is split into a **price effect** (rate per mile) and a **volume effect** (miles served). Every lane is then placed in one of four quadrants, and the result is rolled up into a single, weighted **Pricing Power** score that can be tracked company-wide, by sales team, equipment, quoting channel, shipper or lane.
 
 > The data is a real, frozen snapshot (Jan 2022 – Jun 2024) of a US freight brokerage's spot truckload business, with **every shipper name and ID replaced by a fictional one**. See [Data & anonymization](#data--anonymization).
 
@@ -47,7 +47,7 @@ flowchart LR
     Q --> SP["2. Strategic Price<br/>DP↑ DV↓"]
     Q --> D["3. Downgrade<br/>DP↓ DV↓"]
     Q --> SV["4. Strategic Volume<br/>DP↓ DV↑"]
-    U --> K[Pricing KPI<br/>load-weighted score]
+    U --> K[Pricing Power<br/>load-weighted score]
     SP --> K
     D --> K
     SV --> K
@@ -79,7 +79,7 @@ Upgrade lanes are further split by **sourcing spread**: *winning* (the brokerage
 
 ### 3. Roll it up into one number
 
-The **Pricing KPI** is a load-weighted average of quadrant scores:
+The **Pricing Power** score is a load-weighted average of quadrant scores:
 
 | Quadrant | Weight |
 |---|---:|
@@ -100,7 +100,7 @@ A KPI of **100%** means the average load sat on a lane holding its ground. **Abo
 | Variant | What it fixes |
 |---|---|
 | `KPI` | Follows every filter: lane, shipper, month… |
-| `Pricing KPI` | Keeps only year, month, equipment, sales team and quoting method; ignores lane/shipper selections, for stable trend lines |
+| `Pricing Power` | Keeps only year, month, equipment, sales team and quoting method; ignores lane/shipper selections, for stable trend lines |
 | `KPI (Company-Wide)` | Account + Enterprise sales, by month only; the benchmark line on every chart |
 | `KPI (Shipper Specific)` | Only when exactly one shipper is in context; used to bucket shippers |
 

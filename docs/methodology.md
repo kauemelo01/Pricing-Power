@@ -5,7 +5,7 @@ Every calculation in the model, in dependency order. DAX is quoted from `Pricing
 - [1. Grain and current vs. previous month](#1-grain-and-current-vs-previous-month)
 - [2. Price / volume decomposition](#2-price--volume-decomposition)
 - [3. Quadrants](#3-quadrants)
-- [4. The Pricing KPI](#4-the-pricing-kpi)
+- [4. The Pricing Power score](#4-the-pricing-power-score)
 - [5. KPI variants](#5-kpi-variants)
 - [6. Shipper buckets](#6-shipper-buckets)
 - [7. Quadrant dynamics](#7-quadrant-dynamics)
@@ -69,7 +69,7 @@ A quadrant only exists for **one KMA lane in one month**. Higher levels of the r
 - `# Loads (1a. Upgrade & Winning)` / `(1b. … Losing)`: Upgrade loads split by row-level sourcing spread (`ss_base > 0` vs. `≤ 0`)
 - `Total # Loads/Lanes (…)`: the monthly counts summed over several months, for period totals
 
-## 4. The Pricing KPI
+## 4. The Pricing Power score
 
 ```dax
 KPI =
@@ -95,7 +95,7 @@ The KPI ranges from −100% (all loads on Downgrade lanes) to 200% (all loads on
 |---|---|---|
 | `KPI` | everything | lane and shipper detail |
 | `KPI (Shipper Specific)` | everything, but only when `# Unique Shippers = 1` | bucketing shippers |
-| `Pricing KPI` | `ALLEXCEPT(year, month, equip_type, sales_team, quoting_method)` | trend lines that stay stable when the user clicks a lane or shipper |
+| `Pricing Power` | `ALLEXCEPT(year, month, equip_type, sales_team, quoting_method)` | trend lines that stay stable when the user clicks a lane or shipper |
 | `KPI (Company-Wide)` | `ALLEXCEPT(year, month)` plus `sales_team ∈ {Account Sales, Enterprise Sales}` | the company benchmark on every chart |
 
 ## 6. Shipper buckets

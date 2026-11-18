@@ -5231,17 +5231,17 @@
                   }
                 ]
               },
-              "lane_set.pricing_KPI": {
+              "lane_set.pricing_power": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "Main",
-                    "ConceptualProperty": "Pricing KPI"
+                    "ConceptualProperty": "Pricing Power"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "pricing KPI": {
+                    "pricing power": {
                       "State": "Generated"
                     }
                   },
@@ -12081,7 +12081,7 @@
                 },
                 "State": "Generated"
               },
-              "lane_set_has_pricing_KPI": {
+              "lane_set_has_pricing_power": {
                 "Binding": {
                   "ConceptualEntity": "Main"
                 },
@@ -12089,13 +12089,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "lane_set.pricing_KPI"
+                        "Role": "lane_set.pricing_power"
                       },
                       "Subject": {
                         "Role": "lane_set"
                       }
                     },
-                    "ID": "mains_have_pricing_KPI",
+                    "ID": "mains_have_pricing_power",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12106,9 +12106,9 @@
                       "Entity": "lane_set"
                     }
                   },
-                  "lane_set.pricing_KPI": {
+                  "lane_set.pricing_power": {
                     "Target": {
-                      "Entity": "lane_set.pricing_KPI"
+                      "Entity": "lane_set.pricing_power"
                     }
                   }
                 },
@@ -15228,7 +15228,7 @@
             "lineageTag": "38eff1e0-6841-4108-982a-9c89cb97bf0b"
           },
           {
-            "name": "Pricing KPI",
+            "name": "Pricing Power",
             "displayFolder": "KPIs",
             "expression": [
               "",
