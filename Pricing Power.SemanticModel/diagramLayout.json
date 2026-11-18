@@ -1,0 +1,130 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Quoting",
+          "nodeLineageTag": "0c6f1ab5-4756-443d-bbe5-8ed016bb50eb",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 7,
+          "expandedHeight": 296
+        },
+        {
+          "location": {
+            "x": 751,
+            "y": 262.5
+          },
+          "nodeIndex": "Mileages",
+          "nodeLineageTag": "80ea2a9c-c035-4a13-bdff-fac98d21845b",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 743.5,
+            "y": 446.25
+          },
+          "nodeIndex": "Amounts",
+          "nodeLineageTag": "45fb8c34-45cd-4050-8684-70f844fa0148",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 3,
+          "expandedHeight": 208
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 265
+          },
+          "nodeIndex": "Carriers",
+          "nodeLineageTag": "d3876571-7943-41a0-86e6-8652bc3c9712",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4,
+          "expandedHeight": 152
+        },
+        {
+          "location": {
+            "x": 334.5,
+            "y": 518.5
+          },
+          "nodeIndex": "Shippers",
+          "nodeLineageTag": "d2001659-e743-475c-b6b7-2eff9a3c5f00",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 6,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 739,
+            "y": 572.75
+          },
+          "nodeIndex": "List",
+          "nodeLineageTag": "f5d276e0-31d1-49f6-ab13-cd28c8986ed4",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 1,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 382,
+            "y": 0
+          },
+          "nodeIndex": "Main",
+          "size": {
+            "height": 394,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 745.5,
+            "y": 0
+          },
+          "nodeIndex": "Periods",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 80,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

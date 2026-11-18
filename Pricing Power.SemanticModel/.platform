@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Pricing Power"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d32400bb-35cf-4c56-af7c-4286e5470d8d"
+  }
+}
